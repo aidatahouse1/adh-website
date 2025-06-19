@@ -80,7 +80,7 @@ export default async function Page({ params }) {
               <div className="text-gray-700">
                 <div className="text-gray-900">
                   {job.status === 'active'
-                    ? <> Submit your application at <a href="mailto:career@aidatahouse.com" className="text-green-600 underline">career@aidatahouse.com</a>.</>
+                    ? <> Submit your application at <a href="mailto:hr@aidatahouse.com" className="text-green-600 underline">hr@aidatahouse.com</a>.</>
                     : <span className="text-red-500 font-bold text-[16px]">(Application have been Closed)</span>}
                 </div>
               </div>

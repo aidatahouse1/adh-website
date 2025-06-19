@@ -361,7 +361,7 @@ export default function PrintingCRMLandingPage() {
                 <h2 className="text-3xl font-bold mb-6">See It In Action</h2>
                 <div className="relative mx-auto w-full md:w-[700px] h-[400px]">
                     <iframe
-                        src="https://www.youtube.com/embed/6t_fUu9lROE?si=Io3Yq-SeFDl4qcNk" title="YouTube video player"
+                        src="https://www.youtube.com/embed/PCYijzySyDc?si=8ZHRnrUuQbIcmDI2" title="YouTube video player"
                         className="w-full h-full rounded-xl"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen

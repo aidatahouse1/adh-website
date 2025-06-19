@@ -105,21 +105,20 @@ const ServicesPage = () => {
         <div className="absolute inset-0 z-0">
           <Image
             src="/2.jpg"
-            alt="Data Analytics Services"
+            alt="About AI Data House"
             fill
             className="object-cover opacity-10"
             priority
           />
-          <div className="absolute inset-0 bg-black/50" />
         </div>
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-6xl font-bold mb-6"
+            className="text-4xl md:text-6xl font-bold mb-6 text-gray-700"
           >
-            Transform Your Business with Data-Driven Solutions
+            Transform Your Business with <span className='text-green-700'>Data-Driven Solutions</span> 
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -127,11 +126,11 @@ const ServicesPage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl mb-8"
           >
-            Unlock the power of data analytics, AI, and business intelligence to drive growth and innovation
+Unlock the power of data analytics, AI, and business intelligence to drive growth and innovation.
           </motion.p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <MagneticButton className="bg-green-700 text-white hover:bg-green-800 px-8 py-3 rounded-full">
+              <MagneticButton className='bg-green-800 text-white rounded-full hover:bg-green-900 px-4 py-2'>
                 Get Started
               </MagneticButton>
             </Link>
