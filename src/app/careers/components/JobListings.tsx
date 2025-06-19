@@ -94,7 +94,7 @@ const JobListings = ({ initialJobs }: JobListingsProps) => {
     const jobExists = initialJobs.some(job => job.id === jobId);
     
     if (jobExists) {
-      router.push(`/career/${jobId}`);
+      router.push(`/careers/${jobId}`);
     } else {
       // If job doesn't exist, navigate to 404 page
       router.push('/404');

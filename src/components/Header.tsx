@@ -30,7 +30,7 @@ export default function Header() {
           <Link href="/case-studies" className="text-dark-green-custom font-bold">Case Studies</Link>
           <Link href="/services" className="text-dark-green-custom font-bold">Services</Link>
           <Link href="/about" className="text-dark-green-custom font-bold">About</Link>
-          <Link href="/career" className="text-dark-green-custom font-bold">Career</Link>
+          <Link href="/careers" className="text-dark-green-custom font-bold">Career</Link>
 
           {/* Resources Dropdown */}
           <div
@@ -108,7 +108,7 @@ export default function Header() {
           <Link href="/case-studies" className="block text-dark-green-custom">Case Studies</Link>
           <Link href="/services" className="block text-dark-green-custom">Services</Link>
           <Link href="/about" className="block text-dark-green-custom">About</Link>
-          <Link href="/career" className="block text-dark-green-custom">Career</Link>
+          <Link href="/careers" className="block text-dark-green-custom">Career</Link>
 
           {/* Mobile Resources */}
           <details className="block border border-gray-300 rounded-md">

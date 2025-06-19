@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Contact from "@/components/Contact";
 import React from 'react';
-import { Job } from '@/app/career/data';
+import { Job } from '@/app/careers/data';
 
 const JobDetailClient = ({ job }: { job: Job }) => {
   return (
