@@ -9,6 +9,23 @@ import Contact from "@/components/Contact";
 import QuoteSection from "@/components/Quote";
 import VideoReviews from "@/components/VideoReviews";
 
+export const metadata = {
+  title: "AI Data House | Data, Automation & AI Solutions",
+  description: "AI Data House helps businesses thrive with automation, data analytics, integration, web, Microsoft automation, and AI/ML services.",
+  alternates: {
+    canonical: "https://aidatahouse.com/"
+  },
+  openGraph: {
+    title: "AI Data House | Data, Automation & AI Solutions",
+    description: "AI Data House helps businesses thrive with automation, data analytics, integration, web, Microsoft automation, and AI/ML services.",
+    url: "https://aidatahouse.com/"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Data House | Data, Automation & AI Solutions",
+    description: "AI Data House helps businesses thrive with automation, data analytics, integration, web, Microsoft automation, and AI/ML services."
+  }
+};
 
 export default function Home() {
   return (

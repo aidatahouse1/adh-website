@@ -3,11 +3,29 @@ import { GiPositionMarker } from "react-icons/gi";
 import { IoMailUnreadOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
 
+export const metadata = {
+  title: "Contact Us | AI Data House",
+  description: "Contact AI Data House to discuss your automation, analytics, integration, web, Microsoft automation, or AI/ML project. Let's transform your business!",
+  alternates: {
+    canonical: "https://aidatahouse.com/contact"
+  },
+  openGraph: {
+    title: "Contact Us | AI Data House",
+    description: "Contact AI Data House to discuss your automation, analytics, integration, web, Microsoft automation, or AI/ML project. Let's transform your business!",
+    url: "https://aidatahouse.com/contact"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | AI Data House",
+    description: "Contact AI Data House to discuss your automation, analytics, integration, web, Microsoft automation, or AI/ML project. Let's transform your business!"
+  }
+};
+
 const Page = () => {
   return (
     <div>
-      <h1 className="text-3xl font-black text-green-800 mb-4 text-center my-3">Let’s Collaborate on Your Project</h1>
-      <p className="text-gray-700 text-center max-w-90% md:max-w-[750px] mx-auto">We’re dedicated to understanding your needs and delivering custom solutions that drive your success. <br />Share your details, and our team will get in touch to schedule a time to discuss your goals.</p>
+      <h1 className="text-3xl font-black text-green-800 mb-4 text-center my-3">Let's Collaborate on Your Project</h1>
+      <p className="text-gray-700 text-center max-w-90% md:max-w-[750px] mx-auto">We're dedicated to understanding your needs and delivering custom solutions that drive your success. <br />Share your details, and our team will get in touch to schedule a time to discuss your goals.</p>
       <div className="max-w-6xl mx-auto bg-white p-8 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <form className="space-y-2">
@@ -36,7 +54,7 @@ const Page = () => {
             <div className="text-center">
               <Link href="/thank-you">
               <button type="submit" className="w-full bg-light-green-custom text-white px-6 py-2 rounded-full font-semibold hover:bg-green-800 transition">
-                Let’s get in touch
+                Let's get in touch
               </button>
               </Link>
             </div>
