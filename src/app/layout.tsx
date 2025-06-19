@@ -62,7 +62,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';" />
+        {/* <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; img-src *; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';" /> */}
         <meta name="referrer" content="no-referrer-when-downgrade" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         {/* Organization Structured Data */}
