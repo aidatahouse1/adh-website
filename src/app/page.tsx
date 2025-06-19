@@ -1,6 +1,4 @@
-'use client'
 import React from 'react';
-import Link from 'next/link';
 import HeroSection from "@/components/HeroSection";
 import Services from "@/components/Services";
 import Statistics from "@/components/Statistics";
@@ -10,7 +8,6 @@ import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import QuoteSection from "@/components/Quote";
 import VideoReviews from "@/components/VideoReviews";
-import MagneticButton from "@/components/MagneticButton";
 
 
 export default function Home() {
